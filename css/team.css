@@ -15,10 +15,11 @@
 .teambox {
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .team-box {
-    flex-basis: 15em;
+    flex-basis: 14em;
     margin: 20px;
     position: relative;
 }

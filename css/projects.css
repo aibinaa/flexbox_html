@@ -1,4 +1,4 @@
-#projects {
+.projectcontainer1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -37,4 +37,23 @@
 
 .block01 {
     margin-bottom: 20px;
+}
+
+
+.projectcontainer2 {
+    display: flex;
+    justify-content: center;
+}
+
+.projectbox4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 47em;
+    margin: 20px;
+}
+
+.projectbox3 {
+    flex-basis: 33em;
+    margin: 20px;
 }
