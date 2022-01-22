@@ -1,0 +1,44 @@
+.aboutbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#about img {
+    width: 100%;
+}
+
+#about h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 100;
+    align-self: center;
+}
+
+.aboutbox1 {
+    flex-basis: 40em;
+    margin: 20px;
+    background: #dcdcdc;
+    padding: 20px;
+}
+
+.aboutbox1 h2 {
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 100;
+}
+
+.aboutbox1 p {
+    text-align: justify;
+    font-weight: 200;
+}
+.aboutbox2 {
+    flex-basis: 40em;
+    margin: 20px;
+    transition: 0.2s ease;
+}
+
+.aboutbox2:hover {
+    filter: brightness(120%);
+}

@@ -1,0 +1,40 @@
+#projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#projects img {
+    width: 100%;;
+    
+}
+
+.project {
+    transition: 0.2s ease;
+}
+.project:hover {
+    transform: scale(1.05);
+}
+.projectbox1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35em;
+    margin: 20px;
+}
+
+.projectbox2 {
+    flex-basis: 36em;
+    margin: 20px;
+}
+
+#projects h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 100;
+    align-self: center;
+}
+
+.block01 {
+    margin-bottom: 20px;
+}

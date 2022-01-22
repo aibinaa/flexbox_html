@@ -1,0 +1,25 @@
+#team img {
+    width: 100%;
+}
+#team h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 100;
+    align-self: center;
+}
+
+#team h2 {
+    font-weight: 100;
+}
+.teambox {
+    display:flex;
+    justify-content: center;
+}
+
+.team-box {
+    flex-basis: 15em;
+    margin: 20px;
+    position: relative;
+}
+

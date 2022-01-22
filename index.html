@@ -8,31 +8,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
-    <div class="main-nav">
+    <div class="main-nav" id="nav">
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Designers</a></li>
-                <li><a href="#">Testimotionals</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#team">Designers</a></li>
+                <li><a href="#contact">Testimotionals</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </div>
 
     <header>
-        <div class="head">
-            <h1>Interior Design Studio</h1>
-            <h2>We create spaces for You</h2>
-        </div>
+        <h1>Interior Design Studio</h1>
+        <h2>We create spaces for You</h2>
+    </header>
 
-        <div id="about">
-            <div class="aboutbox">
-                <h1>About the studio</h1>
+    <section id="about">
+        <h1>About the studio</h1>
+        <div class="aboutbox">
+            <div class="aboutbox1">
                 <h2>Our Process</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit cumque at, iure quo earum quasi
                     cupiditate. Voluptatibus consectetur, temporibus, tempora cupiditate corporis, amet at veniam
@@ -46,17 +49,95 @@
                     vero earum facere blanditiis ea optio rerum tempora
                     minima ipsum!</p>
             </div>
-            <div class="teambox"><img src="images/studio2.jpg" alt="team"></div>
-        </div>
-    </header>
+            <div class="aboutbox2"><img src="images/about.jpg" alt="team"></div>
 
-    <section>
-        <div id="portfolio">
-            <div class="block1"></div>
-            <div class="block02"></div>
         </div>
     </section>
 
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="projectbox1">
+            <div class="project block01"><img src="images/img1.jpg" alt=""></div>
+            <div class="project block02"><img src="images/img3.jpg" alt=""></div>
+        </div>
+        <div class="projectbox2">
+            <div class="project block03"><img src="images/img2.jpg" alt=""></div>
+        </div>
+
+    </section>
+    <section id="team">
+        <h1>The team</h1>
+        <div class="teambox">
+            <div class="team-box">
+                <img src="images/about1.jpg" alt="teamimg">
+                <h2>Designer</h2>
+                <div class="textbox"><p>blabla</p></div>
+            </div>
+            <div class="team-box">
+                <img src="images/about2.jpg" alt="teamimg">
+                <h2>Architector</h2>
+            </div>
+            <div class="team-box">
+                <img src="images/about3.jpg" alt="teamimg">
+                <h2>Illustrator</h2>
+            </div>
+            <div class="team-box">
+                <img src="images/about4.jpg" alt="teamimg">
+                <h2>Director</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact us</h1>
+        <form action="#" method="post">
+            <div class="form1">
+                <div>
+                    <label for="username">Name</label>
+                    <input type="text" id="username" name="loginname" required>
+                </div>
+
+                <div>
+                    <label for="email">Email adress</label>
+                    <input type="email" id="email" name="loginemail" required>
+                </div>
+
+                <div>
+                    <label for="phone">Phone</label>
+                    <input id="phone" type='tel' required>
+                </div>
+            </div>
+
+            <div class="form2">
+                <div>
+                    <label for="subjectname">Subject</label>
+                    <input type="text" id="subjectname" required>
+                </div>
+
+                <div>
+                    <legend>Message</legend>
+                    <textarea name="comment" id="comment" cols="60" rows="10"></textarea>
+                </div>
+                <div><input class="button" type="submit" value="Submit"></div>
+            </div>
+            
+        </form>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        window.onscroll = function () {
+            var nav = document.getElementById('nav');
+            if (window.pageYOffset > 100) {
+                nav.classList.add("navbar1");
+            } else {
+                nav.classList.remove("navbar1");
+            }
+        }
+    </script>
 </body>
 
 </html>
