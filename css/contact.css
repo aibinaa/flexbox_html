@@ -49,9 +49,7 @@ label, legend {
 }
 
 .button:hover {
-    background: #ffffff;
-    color: black;
     box-shadow: 0 0 7px 1px #0000009e;
-    
+    border: 1px solid white;
 }
 

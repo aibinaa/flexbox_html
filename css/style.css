@@ -55,6 +55,36 @@ nav a:hover::after {
     color: black;
 }
 
+.burger {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    right: 22px;
+    top: 20px;
+    width: 30px;
+}
+@media screen and (max-width: 768px) {
+    .burger {
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .burger span {
+     width: 30px;
+     height: 4px;
+     margin-bottom: 6px;
+     background: #000000;
+     display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+}
+
 header {
     background-image: url(../images/background.jpg);
     background-position: center;
@@ -102,11 +132,14 @@ header h2 {
 footer {
     background-color: black;
     color: white;
+    text-align: center;
+    padding: 4px 0 20px 0;
 }
 
-
-
-
+.foot-box p{
+    margin-bottom: 0;
+    font-weight: 100;
+}
 
 
 
