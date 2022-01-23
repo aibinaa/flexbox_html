@@ -1,7 +1,13 @@
-.projectcontainer1 {
+.p-container1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width:1450px) {
+    .projectcontainer1 {
+        flex-direction: column;
+    }
 }
 
 #projects img {
@@ -9,21 +15,21 @@
     
 }
 
-.project {
+.p-img {
     transition: 0.2s ease;
 }
-.project:hover {
+.p-img:hover {
     transform: scale(1.05);
 }
-.projectbox1 {
+.p-box1 {
     display: flex;
     flex-direction: column;
-    flex-basis: 35em;
+    flex-basis: 34em;
     margin: 20px;
 }
 
-.projectbox2 {
-    flex-basis: 36em;
+.p-box2 {
+    flex-basis: 35em;
     margin: 20px;
 }
 
@@ -40,20 +46,20 @@
 }
 
 
-.projectcontainer2 {
+.p-container2 {
     display: flex;
     justify-content: center;
 }
 
-.projectbox4 {
+.p-box4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 47em;
+    flex-basis: 49em;
     margin: 20px;
 }
 
-.projectbox3 {
+.p-box3 {
     flex-basis: 33em;
     margin: 20px;
 }

@@ -4,6 +4,12 @@
     justify-content: center;
 }
 
+@media screen and (max-width:1450px) {
+    .aboutbox {
+        flex-direction: column;
+    }
+}
+
 #about img {
     width: 100%;
 }

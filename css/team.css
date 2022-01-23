@@ -16,11 +16,31 @@
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.team-box {
-    flex-basis: 14em;
-    margin: 20px;
     position: relative;
 }
 
+.team-box {
+    flex-basis: 19.2em;
+    margin: 20px;
+    position: relative;
+
+}
+
+.description {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    backface-visibility: hidden;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s ease;
+    box-sizing: border-box;
+    padding: 40px;
+    transform: rotateY(180deg);
+}
+
+.team-box:hover .description {
+    transform: rotateY(360deg);
+}
