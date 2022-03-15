@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b496e78b-e36d-4c50-8042-243fd313c1e4/deploy-status)]
+[Netlify Status](https://api.netlify.com/api/v1/badges/b496e78b-e36d-4c50-8042-243fd313c1e4/deploy-status)
 
 ## Interior Design Studio
 
